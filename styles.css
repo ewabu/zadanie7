@@ -1,0 +1,144 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Roboto;
+}
+.container {
+    max-width: 390px;
+}
+.background {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("img/BackgroundImage.png");
+    background-repeat: no-repeat;
+}
+.back-icon {
+    padding-left: 5px;
+}
+.menu-icon {
+    padding-right: 30px;
+}
+.profile-pic {
+    padding-top: 67px;
+}
+.bordered-container {
+    max-width: 375px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: -55px;
+}
+.headerInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.followers-number, .following-number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.followers {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9797BD;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 28px;
+}
+.following {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9797BD;
+    padding: 20px;
+    padding-top: 0px;
+}
+.generalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9797BD;
+    padding-top: 3px;
+}
+.location-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #9797BD;
+    padding: 2px;
+}
+.location {
+    display: flex;
+    padding-top: 8px;
+}
+.borders {
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+}
+.borderFollow {
+    border-radius: 40px;
+    background-color: #43A2FA;
+    max-height: 40px;
+    min-width: 165px;
+}
+.borderMessage {
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(151, 151, 189, 0.2);
+    max-height: 40px;
+    min-width: 165px;
+   
+}
+.follow, .message {
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding: 12px;
+}
+.follow {
+    color: #FFFFFF;
+}
+.pages {
+    display: flex;
+    justify-content: space-around;
+}
+.active {
+    padding-left: 91px;
+    padding-bottom: 6px;
+}
+.feed {
+    padding-left: 18px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.home-icon, .reels-icon, .shopping-icon, .profile-icon {
+    height: 21px;
+    padding-top: 12px;
+}
+.publish-icon {
+    height: 42px;
+}
