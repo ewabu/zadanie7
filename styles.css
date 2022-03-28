@@ -29,7 +29,7 @@ body {
     border-radius: 12px 12px 0px 0px;
     margin-top: -55px;
 }
-.headerInfo {
+.header-info {
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ body {
     padding: 20px;
     padding-top: 0px;
 }
-.generalInfo {
+.general-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,13 +96,13 @@ body {
     justify-content: space-around;
     padding: 17px;
 }
-.borderFollow {
+.border-follow {
     border-radius: 40px;
     background-color: #43A2FA;
     max-height: 40px;
     min-width: 165px;
 }
-.borderMessage {
+.border-message {
     border-radius: 40px;
     box-shadow: 0px 0px 20px rgba(151, 151, 189, 0.2);
     max-height: 40px;
